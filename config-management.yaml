@@ -33,6 +33,6 @@ spec:
 #        # The name (or ID) of the GCP project containing the cluster
 #        project: project-id
 #        # Location of this cluster
-#        location: us-central-1b
+#        location: us-central1-b
 #        # The name of the cluster.
 #        name: gke
