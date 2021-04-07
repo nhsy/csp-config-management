@@ -12,16 +12,27 @@ spec:
     secretType: None
     policyDir: foo-corp
 
-  # Set to true to install and enable Policy Controller
-  #policyController:
-    #enabled: true
-    # Uncomment to prevent the template library from being installed
-    # templateLibraryInstalled: false
-    # Uncomment to enable support for referential constraints
-    # referentialRulesEnabled: true
-    # Uncomment to disable audit, adjust value to set audit interval
-    # auditIntervalSeconds: 0
-    # Uncomment to log all denies and dryrun failures
-    # logDeniesEnabled: true
-    # Uncomment to exempt namespaces
-    # exemptableNamespaces: ["namespace-name"]
+#  policyController:
+#    enabled: true
+#    # Uncomment to prevent the template library from being installed
+#    # templateLibraryInstalled: false
+#    # Uncomment to enable support for referential constraints
+#    # referentialRulesEnabled: true
+#    # Uncomment to disable audit, adjust value to set audit interval
+#    # auditIntervalSeconds: 0
+#    # Uncomment to log all denies and dryrun failures
+#    # logDeniesEnabled: true
+#    # Uncomment to exempt namespaces
+#    # exemptableNamespaces: ["namespace-name"]
+
+#  binauthz:
+#    enabled: true
+#    # Information needed to determine which policy to enforce
+#    policyRef:
+#      gkeCluster:
+#        # The name (or ID) of the GCP project containing the cluster
+#        project: project-id
+#        # Location of this cluster
+#        location: us-central-1b
+#        # The name of the cluster.
+#        name: gke
