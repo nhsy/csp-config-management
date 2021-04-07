@@ -1,0 +1,13 @@
+apiVersion: configmanagement.gke.io/v1
+kind: ConfigManagement
+metadata:
+  name: config-management
+  namespace: config-management-system
+spec:
+  clusterName: gke
+  git:
+    syncRepo: https://github.com/nhsy/csp-config-management.git
+    syncBranch: anthos-lab
+    syncWait: 5
+    secretType: None
+    policyDir: foo-corp
