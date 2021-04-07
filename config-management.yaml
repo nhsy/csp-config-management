@@ -9,7 +9,7 @@ spec:
     syncRepo: https://github.com/nhsy/csp-config-management.git
     syncBranch: anthos-lab
     syncWait: 5
-    secretType: None
+    secretType: none
     policyDir: foo-corp
 
 #  policyController:
@@ -31,7 +31,7 @@ spec:
 #    policyRef:
 #      gkeCluster:
 #        # The name (or ID) of the GCP project containing the cluster
-#        project: project-id
+#        project: qwiklabs-gcp-01-bb73283bd87f
 #        # Location of this cluster
 #        location: us-central1-b
 #        # The name of the cluster.
