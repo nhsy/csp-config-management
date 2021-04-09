@@ -12,8 +12,8 @@ spec:
     secretType: none
     policyDir: "foo-corp"
 
-#  policyController:
-#    enabled: true
+  policyController:
+    enabled: true
 #    # Uncomment to prevent the template library from being installed
 #    # templateLibraryInstalled: false
 #    # Uncomment to enable support for referential constraints
