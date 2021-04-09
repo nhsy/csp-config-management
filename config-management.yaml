@@ -25,14 +25,14 @@ spec:
 #    # Uncomment to exempt namespaces
 #    # exemptableNamespaces: ["namespace-name"]
 
-#  binauthz:
-#    enabled: true
-#    # Information needed to determine which policy to enforce
-#    policyRef:
-#      gkeCluster:
-#        # The name (or ID) of the GCP project containing the cluster
-#        project: qwiklabs-gcp-01-bb73283bd87f
-#        # Location of this cluster
-#        location: us-central1-b
-#        # The name of the cluster.
-#        name: exam
+  binauthz:
+    enabled: true
+    # Information needed to determine which policy to enforce
+    policyRef:
+      gkeCluster:
+        # The name (or ID) of the GCP project containing the cluster
+        project: qwiklabs-gcp-00-5db938590e61
+        # Location of this cluster
+        location: us-central1
+        # The name of the cluster.
+        name: exam
